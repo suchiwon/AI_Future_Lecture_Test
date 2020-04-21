@@ -10,4 +10,10 @@ merged?
 #XXX
 1111
 zzzzzzzzzz
-xxxxxxxxxx 
+xxxxxxxxxx
+
+# DockerFile 사용법
+- 실행 전 docker 설치가 되어 있어야 함
+- dockers 폴더 내 dockerFile, build.sh, run.sh 존재
+- build.sh 실행 시 dockerFile을 이용해 docker image 생성
+- run.sh 실행 시 docker image를 이용해 nginx ubuntu container 실행
